@@ -5,15 +5,12 @@
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
-int main(void)
-{
-    char *temperature = readline("Enter temperature in celsius: ");
-    double celsius = atof(temperature);
-    double fahrenheit;
 
-    fahrenheit = (celsius * 9 / 5) + 32;
-
-    printf("%.6f° in Celsius is equivalent to %.6f° Fahrenheit.", celsius, fahrenheit);
+int main(void) {
+    char *ctemp = readline("Enter temperature in celsius: ");
+    double c = atof(ctemp);
+    double f =
+    printf("%f° in celsius is equivalent to %f° Fahrenheit.\n",c, f);
 
     return 0;
 }
