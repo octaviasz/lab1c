@@ -17,6 +17,5 @@ int main(void) {
   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n", c, f);
 
 
-
   return 0;
  }
